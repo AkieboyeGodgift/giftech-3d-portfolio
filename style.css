@@ -91,7 +91,7 @@ main h2 {
 }
 
 .location p {
-    background-image: linear-gradient(to right, #76b0ab, #ffffff, #842626);
+    background-image: linear-gradient(to right, #0cd136, #ffffff, #0cd136);
     color: transparent;
     background-clip: text;
     font-size: 1.5rem;
@@ -694,9 +694,13 @@ footer {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     body {
         padding: 1rem;
+    }
+
+    header {
+        margin-left: 30px;
     }
 
     main h2 {
@@ -711,14 +715,37 @@ footer {
         font-size: 1rem;
     }
 
+    .about-title {
+        text-align: center;
+        font-size: 50px;
+    }
+
     .contact-btn {
         padding: 0.4rem 1.5rem;
         font-size: 0.9rem;
     }
 
     .model-box {
-        right: -4%;
+        right: 4%;
         top: 17%;
+    }
+
+    .card {
+        min-width: 350px;
+        left: -7%;
+    }
+
+    .card .tech {
+        min-width: 350px;
+    }
+
+    .info-card {
+        min-width: 350px;
+        left: -7%;
+    }
+
+    .contact-section {
+        padding: 10px;
     }
 }
 
